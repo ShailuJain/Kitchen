@@ -43,16 +43,6 @@ body{
     background-color: #77bc25;
     color: #fff;
 }
-.btn-white{
-    border: solid 2px var(--white);
-    color: var(--white);
-}
-.btn-white:hover,
-.btn-white:focus{
-    background-color: var(--white);
-    color: var(--pink);
-}
-
 .divider .fa.fa-th-large{
     font-size: 15px;
     color: #77bc25;
