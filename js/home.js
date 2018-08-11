@@ -22,18 +22,10 @@ $(function(){
             opacity: '0.3',
             border: 'none',
         });  
-        alert(event.relatedTarget['_drag']['direction']);
-        if (event.relatedTarget.state.direction === "left") {
-            $(".owl-item.active img").eq(4).css({
-                opacity: '1',
-                border: 'solid 8px #77bc25',
-            });
-        }else{
-            $(".owl-item.active img").eq(2).css({
-                opacity: '1',
-                border: 'solid 8px #77bc25',
-            });
-        }
+        $(".owl-item.active img").eq(4).css({
+            opacity: '1',
+            border: 'solid 8px #77bc25',
+        });
     });
     
 });

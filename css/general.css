@@ -52,12 +52,7 @@ body{
     background-color: var(--white);
     color: var(--pink);
 }
-section{
-    margin-top: 60px;
-    padding: 40px 0;
-    font-size: 15px;
-    position: relative;
-}
+
 
 .owl-stage-outer {
     position:relative;
@@ -76,14 +71,15 @@ section{
 .divider{
     text-align: center;
     margin: 20px 0;
+    position: relative;
 }
 .divider::before{
     content: '';
     display: inline-block;
-    position: absolute;
+    position: relative;
     background-color: #333;
-    left: 47%;
-    margin-top: 7px;
+    left: -6px;
+    top: -5px;
     height: 1px;
     width: 30px;
     
@@ -91,10 +87,10 @@ section{
 .divider::after{
     content: '';
     display: inline-block;
-    position: absolute;
+    position: relative;
     background-color: #333;
-    right: 47%;
-    margin-top: 7px;
+    right: -6px;
+    top: -5px;
     height: 1px;
     width: 30px;
     
