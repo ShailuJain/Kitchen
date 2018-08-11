@@ -62,6 +62,23 @@ body{
     background-color: var(--white);
     color: var(--pink);
 }
+section{
+    margin-top: 60px;
+    padding: 40px 0;
+    font-size: 15px;
+    position: relative;
+}
+
+.owl-stage-outer {
+    position:relative;
+    z-index:10;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    position:relative;
+    z-index:99;
+    margin-top:-35px;
+}
+
 /*************************************************HEADER CSS***********************************************/
 .brand{
     line-height: 1;
@@ -101,6 +118,10 @@ body{
     padding-right: 15px;
 }
 /********************************************************HOME****************************/
+#home,#design{
+    margin: 0;
+    padding: 0;
+}
 .content-box{
     position: absolute;
     width: 100%;
@@ -180,10 +201,7 @@ body{
     height: 370px;
     background-color: #111;
 }
-#about-kitchen{
-    padding-top: 80px;
-    font-size: 15px;
-}
+
 .about-content ul{
     padding-left: 12px;
     list-style: circle;
@@ -194,4 +212,19 @@ body{
 }
 .about-content .btn{
     color: #111;
+    font-size: 17px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*********************************FEATURED PROJECT********************/
+#featured-projects,
+.content-carton{
+    width: 100%;
+    background-color: #F3F3F3;
+}
+.content-heading{
+    text-align: center;
+}
+.title-desc{
+    color: #333;
 }
