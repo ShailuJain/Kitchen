@@ -1,0 +1,114 @@
+/*************************************************************************************************
+    PROJECT NAME         :         WHITE GRAPHICS
+
+                    DEFAULT VALUES
+    FONT                 :         CAIRO , JOSEFIN SANS
+    LIGHT GREY		     :         #777
+	STEEL GREY			 :		   #64707B
+    GREEN 		         :  	   #77BC25
+    WHITE                :         #FFF
+    BLACK                :         #333 
+
+**************************************************************************************************/
+
+/**************************************************************************************************
+                                    GENERAL CSS SECTION
+**************************************************************************************************/
+
+html,
+body {
+	overflow-x: hidden;
+    height: 100%;
+    font-family: 'Cairo', sans-serif;
+}
+
+h1, h2, h3 {
+	font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: bold;
+}
+
+h4, p {
+    font-size: 16px;
+    color: #64707B;
+    font-weight: 300;
+}
+.content-box{
+	margin: 30px;
+}
+/**************************************************************************************************
+                                    GENERAL TITLES SECTION
+**************************************************************************************************/
+h1{
+	font-size: 26px;
+	letter-spacing: 2px;
+}
+
+h4{
+	font-size: 13px;
+	letter-spacing: 1px;
+}
+
+/**************************************************************************************************
+                                    COVER SECTION
+**************************************************************************************************/
+
+.cover {
+    background-image: url(../Images/cover.jpg);
+/*    background: #222;*/
+    position: relative;
+    height: 250px;
+    width: 100%;
+    background-position: cover;
+}
+
+/**************************************************************************************************
+                                    INTRODUCTION SECTION
+**************************************************************************************************/
+.introduction{
+	padding: 20px;
+	margin: 30px;
+}
+.intro>p{
+	padding: 0 0 10px;
+	text-align: justify;
+}
+.intro>h4{
+	text-transform: uppercase;
+	font-weight: bold;
+	color: #77BC25
+}
+
+button{
+	background-color: #77BC25;
+	border: none;
+	font-size: 10px;
+	padding:5px 10px;
+	text-transform: uppercase;
+	color: #fff;
+}
+hr{
+	background-color: black;
+	width: 2px;
+}
+/*
+.bor-one{
+	border-right: solid 1px black;
+}
+.bor-two{
+	border-bottom: solid 1px black;
+}
+.bor.three{
+	border-bottom: solid 1px black;
+}
+.bor-four{
+	border-left: solid 1px black;
+}
+*/
+/**************************************************************************************************
+                                    HISTORY SECTION
+**************************************************************************************************/
+.green-box{
+	border: #77BC25;
+}
