@@ -93,3 +93,9 @@ color:white;
     float: right;
     padding: 0 15px;
 }
+footer .brand *{
+    color: #fff;
+}
+.brand .fa{
+    color: #77bc25;
+}
