@@ -8,7 +8,23 @@
 *********************************************************************************************************/
 
 
+section{
+    margin-top: 60px;
+    padding: 40px 0;
+    font-size: 15px;
+    position: relative;
+}
 
+
+.owl-stage-outer {
+    position:relative;
+    z-index:10;
+}
+.owl-theme .owl-nav.disabled + .owl-dots {
+    position:relative;
+    z-index:99;
+    margin-top:-35px;
+}
 /*************************************************HEADER CSS***********************************************/
 .brand{
     line-height: 1;
@@ -165,4 +181,7 @@
     opacity: 0.3;
     height: 350px;
     width: 400px;
+}
+.bottom-title{
+    text-align: center;
 }

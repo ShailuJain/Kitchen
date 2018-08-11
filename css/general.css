@@ -52,6 +52,7 @@ body{
     background-color: var(--white);
     color: var(--pink);
 }
+<<<<<<< HEAD
 .owl-stage-outer {
     position:relative;
     z-index:10;
@@ -61,6 +62,9 @@ body{
     z-index:99;
     margin-top:-35px;
 }
+=======
+
+>>>>>>> 3bba36beec6c21c2ad0a05b617359cb8e3650c79
 .divider .fa.fa-th-large{
     font-size: 15px;
     color: #77bc25;
@@ -69,15 +73,19 @@ body{
 .divider{
     text-align: center;
     margin: 20px 0;
+<<<<<<< HEAD
 	position: relative;
+=======
+    position: relative;
+>>>>>>> 3bba36beec6c21c2ad0a05b617359cb8e3650c79
 }
 .divider::before{
     content: '';
     display: inline-block;
-    position: absolute;
+    position: relative;
     background-color: #333;
-    left: 47%;
-    margin-top: 7px;
+    left: -6px;
+    top: -5px;
     height: 1px;
     width: 30px;
     
@@ -85,10 +93,10 @@ body{
 .divider::after{
     content: '';
     display: inline-block;
-    position: absolute;
+    position: relative;
     background-color: #333;
-    right: 47%;
-    margin-top: 7px;
+    right: -6px;
+    top: -5px;
     height: 1px;
     width: 30px;
     
