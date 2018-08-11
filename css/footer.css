@@ -93,9 +93,29 @@ color:white;
     float: right;
     padding: 0 15px;
 }
+.brand{
+    line-height: 1;
+    margin-left: 20px;
+}
+.brand:hover,
+.brand:focus{
+    text-decoration: none;
+}
 footer .brand *{
     color: #fff;
 }
 .brand .fa{
     color: #77bc25;
+}
+.title-kitchen{
+    font-size: 30px;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+}
+.title-design{
+    font-family: 'Coria';
+    font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
 }
