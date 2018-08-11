@@ -10,7 +10,6 @@
 
 section{
     margin-top: 60px;
-    padding: 40px 0;
     font-size: 15px;
     position: relative;
 }
@@ -22,7 +21,7 @@ section{
 }
 .owl-theme .owl-nav.disabled + .owl-dots {
     position:relative;
-    z-index:99;
+    z-index: 99;
     margin-top:-35px;
 }
 /*************************************************HEADER CSS***********************************************/
@@ -142,10 +141,12 @@ section{
     color: #77bc25;
 }
 /**********************************ABOUT KITCHEN************************/
-.video{
+.video,
+iframe{
     width: 470px;
     height: 370px;
     background-color: #111;
+    padding: 0;
 }
 
 .about-content ul{
@@ -165,6 +166,7 @@ section{
 /*********************************FEATURED PROJECT********************/
 #featured-projects,
 .content-carton{
+    padding: 40px 0;
     width: 100%;
     background-color: #F3F3F3;
 }
@@ -182,6 +184,48 @@ section{
     height: 350px;
     width: 400px;
 }
+.owl-item.center img{
+    opacity: 1;
+    border: solid 8px #77bc25;
+}
 .bottom-title{
     text-align: center;
+}
+/*************************************SERVICE************************************/
+.service{
+	padding: 50px;
+}
+.service-item-icon>i{
+	display: inline-block;
+}
+.service-item-icon>i:hover{
+	color: #77BC25;
+	cursor: pointer;
+}
+.services-detail{
+	display: inline-block;
+}
+.service>container{
+	padding-top: 20px;
+}
+
+.sub-title{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #777;
+	text-transform: capitalize;
+	
+}
+/***************************************OUR BLOG***************************************/
+.card{
+    text-align: center;
+}
+.card img{
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+}
+.card-body .card-title{
+    font-size: 20px;
 }
