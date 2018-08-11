@@ -12,13 +12,26 @@
     <!--FONTS-->
     <link href="https://fonts.googleapis.com/css?family=Cairo:300,400,700|Josefin+Sans:300i,400,400i,600,700" rel="stylesheet">
 
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.theme.green.min.css">
+    
     <!--BOOTSTRAP CSS-->
     <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    
+    <!--OUR CSS-->
+    <link rel="stylesheet" href="css/home.css">
 
 </head>
 
 <body>
+   <!--START OF HEADER SECTION-->
     <header>
+        <div class="head">
+           <div class="container">
+            <a class="brand" href="#"><span class="title-kitchen">Kitchen</span><span class="fa fa-th-large logo"></span> <span class="title-design">Design</span></a>
+            </div>
+        </div>
         <nav class="navbar navbar-default" role="navigation">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
@@ -28,7 +41,6 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><span class="title-design">Design</span><br><span class="fa fa-th-large logo"></span> <span class="title-kitchen">Kitchen</span></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -53,21 +65,122 @@
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href=""><i class="fa fa-cart-plus"></i></a></li>
+                </ul>
             </div>
             <!-- /.navbar-collapse -->
         </nav>
 
     </header>
-    <!--Header-->
-    <section class="main_content">
+    <!--END OF HEADER SECTION-->
+    
+    <!--START OF HOME SECTION-->
+    <section id="home">
+        <div class="home-cover animated fadeIn">
+            <div class="owl owl-carousel owl-theme">
+                <div class="img-carousel">
+                    <img src="images/kitchen-12.jpg" alt="Room Image" class="img-responsive">
+                    <div class="op"></div>
+                </div>
+                <!--.img-carousel-->
+                <div class="img-carousel">
+                    <img src="images/kitchen-1.jpg" alt="Room Image" class="img-responsive">
+                    <div class="op"></div>
+                </div>
+                <!--.img-carousel-->
+                <div class="img-carousel">
+                    <img src="images/kitchen-9.jpg" alt="Room Image" class="img-responsive">
+                    <div class="op"></div>
+                </div>
+                <!--.img-carousel-->
+                <div class="img-carousel">
+                    <img src="images/kitchen-6.jpg" alt="Room Image" class="img-responsive">
+                    <div class="op"></div>
+                </div>
+                <!--.img-carousel-->
+                <div class="img-carousel">
+                    <img src="images/kitchen-11.jpg" alt="Room Image" class="img-responsive">
+                    <div class="op"></div>
+                </div>
+                <!--.img-carousel-->
+            </div>
+            <!--.owl-carousel-->
+        </div>
+        <!--.home-cover-->
+        <div class="content-box">
+            <div class="home-content animated zoomIn">
+                <h2>We Make <span class="title-green">You</span> Happy</h2>
+                <a href="#" class="btn btn-lg btn-general btn-green-fill">Get Started!</a>
+                <a href="#" class="btn btn-lg btn-general btn-green">Learn More</a>
+            </div>
+        </div>
+        <!--.home-content-->
 
     </section>
+    <!--END OF HOME SECTION-->
+    
+    <!--START OF DESIGN SECTION-->
+    <section id="design">
+        <div class="design-1 text-center">
+            <div class="number">01</div>
+            <div class="content">
+                <h2 class="content-title">Search Your Design</h2>
+                <p class="content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quaerat beatae ex, molestiae, laudantium nemo esse praesentium reiciendis earum vel explicabo mollitia iste inventore et accusamus odio, repellat neque. Consequuntur.</p>
+                <span class="fa fa-square"></span>
+            </div>
+        </div><div class="design-2 text-center">
+            <div class="number">02</div>
+            <div class="content">
+                <h2 class="content-title">Book Your Design</h2>
+                <p class="content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quaerat beatae ex, molestiae, laudantium nemo esse praesentium reiciendis earum vel explicabo mollitia iste inventore et accusamus odio, repellat neque. Consequuntur.</p>
+                <span class="fa fa-arrow-right"></span>
+            </div>
+        </div><div class="design-3 text-center">
+            <div class="number">03</div>
+            <div class="content">
+                <h2 class="content-title">We Make Your Design</h2>
+                <p class="content-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique quaerat beatae ex, molestiae, laudantium nemo esse praesentium reiciendis earum vel explicabo mollitia iste inventore et accusamus odio, repellat neque. Consequuntur.</p>
+                <span class="fa fa-square"></span>
+            </div>
+        </div>
+    </section>
+    <!--END OF DESIGN SECTION-->
+    
+    <!--START OF ABOUT KITCHEN SECTION-->
+    <section id="about-kitchen">
+        <div class="container">
+            <div class="video col-md-3">
+                        
+            </div>
+            <div class="about-content col-md-offset-1 col-md-5">
+                <h2 class="title-black">About Kitchen Design</h2>
+                <p class="about-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime ex, et consequuntur officia iste quidem nesciunt blanditiis, voluptatem cupiditate, accusantium, quae perferendis quaerat debitis dolorum. Repellat autem tempora neque harum.</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li>Alias iusto autem aspernatur rerum, nemo quidem veritatis, </li>
+                    <li>minus distinctio, dolore assumenda eum impedit delectus </li>
+                    <li>accusantium cumque optio sequi commodi adipisci dolor!</li>
+                </ul>
+                <a href="#" class="btn btn-lg btn-general btn-green">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!--END OF ABOUT KITCHEN SECTION-->
+    
 
     <!--.jquery js-->
     <script src="js/jquery.min.js"></script>
 
     <!--.bootstrap-->
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    
+    <!--owl carousel-->
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    
+    <!--Our JS-->
+    <script src="js/home.js"></script>
 
 </body>
 

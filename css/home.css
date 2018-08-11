@@ -1,8 +1,197 @@
+/***********************************************COLORS**************************************************
+            #333 - greyblack
+            #777 - light grey
+            #77bc25 - green
+            #fff - white
+
+
+*********************************************************************************************************/
+
+
 /*************************************************GENERAL CSS******************************************/
 body{
     font-family: 'Josefin Sans';
 }
+.op{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);
+}
+.title-green{
+    color: #77bc25;
+}
+.title-black{
+    text-transform: uppercase;
+    color: #111;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.btn-general{
+    padding: 10px 20px;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.btn-green{
+    border: solid 2px #77bc25;
+    color: #fff;
+}
+.btn-green-fill{
+    border: solid 2px #77bc25;
+    background-color: #77bc25;
+    color: #333;
+}
+.btn-green-fill:hover,
+.btn-green-fill:focus{
+    color: #fff;
+}
+.btn-green:hover,
+.btn-green:focus{
+    background-color: #77bc25;
+    color: #fff;
+}
+.btn-white{
+    border: solid 2px var(--white);
+    color: var(--white);
+}
+.btn-white:hover,
+.btn-white:focus{
+    background-color: var(--white);
+    color: var(--pink);
+}
 /*************************************************HEADER CSS***********************************************/
+.brand{
+    line-height: 1;
+    margin-left: 20px;
+}
+.brand:hover,
+.brand:focus{
+    text-decoration: none;
+}
+.title-kitchen{
+    font-size: 30px;
+    color: #111;
+    text-transform: uppercase;
+    display: block;
+}
 .title-design{
+    font-family: 'Coria';
     font-size: 20px;
+    color: #777;
+    text-transform: uppercase;
+}
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+}
+.logo,
+.navbar-default .navbar-nav>li>a:hover{
+    color: #77bc25;
+}
+.navbar.navbar-default{
+    background-color: #000;   
+    margin-bottom: 0;
+}
+.navbar-default .collapse.navbar-collapse{
+    margin-right: 11%;
+    margin-left: 11%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/********************************************************HOME****************************/
+.content-box{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 45vh;
+}
+.home-content h2{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+}
+.home-content{
+    margin: 0 auto;
+    text-align: center;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+.home-content .title-green{
+    font-weight: 600;
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 65px;
+}
+.img-carousel{
+    height: 600px;
+}
+/**********************************************DESIGN***********************/
+
+.number{
+    position: absolute;
+    margin: 30px auto;
+    color: #333;
+    left: 0;
+    right: 0;
+    font-size: 80px;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+}
+.content{
+    position: absolute;
+    margin: 60px auto;
+    color: #fff;
+}
+.content .content-title{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.content-desc{
+    font-size: 12px;
+}
+.design-1,
+.design-2,
+.design-3{
+    display: inline-block;    
+    position: relative;
+    width: 33.33333%;
+    background: #221C1C;
+    height: 250px;
+    
+}
+.design-2{
+    background-color: #181310;
+}
+.fa.fa-square{
+    font-size: 8px;
+}
+.fa.fa-arrow-right{
+    font-size: 10px;
+    color: #77bc25;
+}
+/**********************************ABOUT KITCHEN************************/
+.video{
+    width: 470px;
+    height: 370px;
+    background-color: #111;
+}
+#about-kitchen{
+    padding-top: 80px;
+    font-size: 15px;
+}
+.about-content ul{
+    padding-left: 12px;
+    list-style: circle;
+    margin-top: 40px;
+}
+.about-desc{
+    margin-top: 40px;
+}
+.about-content .btn{
+    color: #111;
 }
