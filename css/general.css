@@ -52,13 +52,6 @@ body{
     background-color: var(--white);
     color: var(--pink);
 }
-section{
-    margin-top: 60px;
-    padding: 40px 0;
-    font-size: 15px;
-    position: relative;
-}
-
 .owl-stage-outer {
     position:relative;
     z-index:10;
@@ -76,6 +69,7 @@ section{
 .divider{
     text-align: center;
     margin: 20px 0;
+	position: relative;
 }
 .divider::before{
     content: '';
