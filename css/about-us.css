@@ -114,7 +114,25 @@ h4{
 	font-weight: bold;
 	color: #77BC25
 }
-
+.hr,.vr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.hr{
+    position: relative;
+    top: 15px;
+}
+.vr{
+    transform: rotate(90deg);
+}
+#stats .container{
+    width: 100%;
+    overflow: hidden;
+}
 /*
 .bor-one{
 	border-right: solid 1px black;
