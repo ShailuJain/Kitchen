@@ -53,16 +53,6 @@ body{
     color: var(--pink);
 }
 
-
-.owl-stage-outer {
-    position:relative;
-    z-index:10;
-}
-.owl-theme .owl-nav.disabled + .owl-dots {
-    position:relative;
-    z-index:99;
-    margin-top:-35px;
-}
 .divider .fa.fa-th-large{
     font-size: 15px;
     color: #77bc25;
