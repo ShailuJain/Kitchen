@@ -28,14 +28,47 @@ h1, h2, h3 {
     color: #333;
     font-weight: bold;
 }
-
 h4, p {
     font-size: 16px;
     color: #64707B;
     font-weight: 300;
 }
+h5{
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+h6{
+	color: #64707B;
+    font-weight: bolder;
+	font-size: 30px;	
+	letter-spacing: 1px;
+	display: inline-block;
+}
+.button{
+	background-color: #77BC25;
+	border: none;
+	border-radius: 0;
+	font-size: 10px;
+	padding:5px 20px;
+	text-transform: uppercase;
+	color: #fff;
+}
 .content-box{
 	margin: 30px;
+}
+.title-left{
+	text-align: left;
+}
+.sub-title{
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+	color: #777;
+	text-transform: capitalize;
+	
 }
 /**************************************************************************************************
                                     GENERAL TITLES SECTION
@@ -67,8 +100,8 @@ h4{
                                     INTRODUCTION SECTION
 **************************************************************************************************/
 .introduction{
-	padding: 20px;
-	margin: 30px;
+	padding: 50px;
+	background-color: #fff;
 }
 .intro>p{
 	padding: 0 0 10px;
@@ -78,15 +111,6 @@ h4{
 	text-transform: uppercase;
 	font-weight: bold;
 	color: #77BC25
-}
-
-button{
-	background-color: #77BC25;
-	border: none;
-	font-size: 10px;
-	padding:5px 10px;
-	text-transform: uppercase;
-	color: #fff;
 }
 hr{
 	background-color: black;
@@ -109,6 +133,62 @@ hr{
 /**************************************************************************************************
                                     HISTORY SECTION
 **************************************************************************************************/
-.green-box{
-	border: #77BC25;
+.history{
+	background-color: #F3F3F3;
+	padding: 50px;
+	letter-spacing: 1px;
 }
+.green-box{
+	color: #77BC25;
+	margin-left: 15px;
+}
+.counter{
+	color: #777;
+	font-size: 16px;
+	text-transform: uppercase;
+	
+}
+.counter-lg{
+	text-transform: uppercase;
+	font-size: 26px;
+}
+
+i{
+	color: #777;
+}
+
+
+/**************************************************************************************************
+                                    SERVICES SECTION
+**************************************************************************************************/
+.service{
+	padding: 50px;
+}
+.service-item-icon>i{
+	display: inline-block;
+}
+.service-item-icon>i:hover{
+	color: #77BC25;
+	cursor: pointer;
+}
+.services-detail{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
