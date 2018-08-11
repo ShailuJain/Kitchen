@@ -68,7 +68,7 @@ section{
     margin: 0;
     padding: 0;
 }
-.content-box{
+.content-home-box{
     position: absolute;
     width: 100%;
     z-index: 100;
